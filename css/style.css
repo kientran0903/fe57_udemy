@@ -1,0 +1,95 @@
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left a {
+  flex-grow: 1;
+}
+
+.header-left .categories {
+  flex-grow: 1;
+}
+
+.header-left form {
+  flex-grow: 5;
+}
+
+.header-left form .input-group {
+  border: 1px solid #000026;
+  border-radius: 2px;
+}
+
+.header-left form .input-group input {
+  border: transparent;
+}
+
+.header-left form .input-group input:focus {
+  box-shadow: none;
+}
+
+.header-left form .input-group i {
+  background-color: #fff;
+  color: #ec5252;
+  padding: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.header-left form .input-group i:hover {
+  background-color: #ec5252;
+  color: #fff;
+}
+
+.header-right .nav-link {
+  color: #000026 !important;
+}
+
+.header-right .btn-login {
+  color: #ec5252;
+}
+
+.header-right .btn-danger {
+  border: 1px solid #000026;
+}
+
+#carousel {
+  background-image: url(../../img/cover.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+#carousel form {
+  flex-grow: 5;
+}
+
+#carousel form .input-group {
+  border: 1px solid #000026;
+  border-radius: 2px;
+}
+
+#carousel form .input-group input {
+  border: transparent;
+}
+
+#carousel form .input-group input:focus {
+  box-shadow: none;
+}
+
+#carousel form .input-group i {
+  background-color: #fff;
+  color: #ec5252;
+  padding: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#carousel form .input-group i:hover {
+  background-color: #ec5252;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,51 @@
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left a {
+  flex-grow: 1;
+}
+
+.header-left .categories {
+  flex-grow: 1;
+}
+
+.header-left form {
+  flex-grow: 5;
+}
+
+.header-left form .input-group {
+  border: 1px solid #000026;
+  border-radius: 2px;
+}
+
+.header-left form input {
+  border: transparent;
+}
+
+.header-left form input:focus {
+  box-shadow: none;
+}
+
+.header-left form i {
+  background-color: #fff;
+  color: #ec5252;
+  padding: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.header-left form i:hover {
+  background-color: #ec5252;
+  color: #fff;
+}
+
+.header-right .btn-login {
+  color: #ec5252;
+}
+
+.header-right .btn-danger {
+  border: 1px solid #000026;
+}
+/*# sourceMappingURL=header.css.map */

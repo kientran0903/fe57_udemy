@@ -1,0 +1,40 @@
+#carousel {
+  background-image: url(../../img/cover.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+#carousel form {
+  flex-grow: 5;
+}
+
+#carousel form .input-group {
+  border: 1px solid #000026;
+  border-radius: 2px;
+}
+
+#carousel form .input-group input {
+  border: transparent;
+}
+
+#carousel form .input-group input:focus {
+  box-shadow: none;
+}
+
+#carousel form .input-group i {
+  background-color: #fff;
+  color: #ec5252;
+  padding: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#carousel form .input-group i:hover {
+  background-color: #ec5252;
+  color: #fff;
+}
+/*# sourceMappingURL=carousel.css.map */
